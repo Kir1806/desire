@@ -18,4 +18,6 @@
 
 3. установил глобально gulp-cli, прописал в package script  для запуска gulp-dev и для gulp-build
 4. начал писать разметку для headera
+5.на многостраничных сайтах после header верстают footer
+
 
