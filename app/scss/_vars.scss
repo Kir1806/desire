@@ -6,7 +6,7 @@ $title: #363838;
     font-weight: 700;
 }
 
-@function max($numbers...) {
+@function max($numbers...) { // заплптка для fancybox и scss
  @return m#{a}x(#{$numbers});
 }
 @function min($numbers...) {
