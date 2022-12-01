@@ -6,6 +6,15 @@ $(function () {
     $('.rightside-menu__close').on('click', function() {
         $('.rightside-menu').addClass('rightside-menu--close')
     })
+
+
+    $('.header__button-menu').on('click', function() {
+        $('.menu').toggleClass('menu--open')
+    });
+    
+    // $('.rightside-menu__close').on('click', function() {
+    //     $('.rightside-menu').addClass('rightside-menu--close')
+    // })
     
     $('.top__slider').slick({// настройка slick
         dots: true,
