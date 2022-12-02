@@ -5,6 +5,12 @@ $title: #363838;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
+@media (max-width: 540px) {
+    %title-font {
+        font-size: 28px;
+        line-height: 36px;
+    }
+}
 
 @function max($numbers...) { // заплптка для fancybox и scss
  @return m#{a}x(#{$numbers});

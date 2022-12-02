@@ -15,6 +15,10 @@ $(function () {
     // $('.rightside-menu__close').on('click', function() {
     //     $('.rightside-menu').addClass('rightside-menu--close')
     // })
+
+    if($(window).width() < 651){// переопределение элементов how it works
+        $('.works-path__item--measuring').appendTo($('.works-path__items-box'));
+    }
     
     $('.top__slider').slick({// настройка slick
         dots: true,
