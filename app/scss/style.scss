@@ -5,13 +5,13 @@
 @import 'global';
 
 .header {
-    border: 1px solid green;
+    // border: 1px solid green;
     &__inner {
         display: flex;
         justify-content: space-between;
         align-items: center;
         height: 120px;
-        border: 1px solid red;
+        // border: 1px solid red;
     }
     &__button {
         background-color: transparent;
