@@ -1,3 +1,12 @@
+@media (max-width: 1700px) {
+    .contact-slider {
+       &__img {
+        width: 100%;
+
+       }
+    }
+}
+
 @media (max-width: 1366px) { //-------------------------------------------1360---------------------------
     .collection {
         grid-template-columns: repeat(3, 1fr);
@@ -5,7 +14,9 @@
             width: 100%;
         }
     }
-
+    .map {
+        margin-top: 0;
+    }
 }
 
 @media (max-width: 1200px) { //-------------------------------------------1220---------------------------
@@ -16,6 +27,11 @@
         }
         &__slider-img {
             height: 640px;
+        }
+    }
+    .contact-slider {
+        &__img {
+            height: 240px;
         }
     }
 }
@@ -76,7 +92,13 @@
         &__item-production{
             margin-left: 50px;
         }
-
+    }
+    .contact {
+        .contact__social,
+        &__box,
+        &__form {
+            padding-left: 0;
+        }
     }
 }
 
@@ -156,6 +178,11 @@
             grid-template-columns: repeat(3, 1fr);
         }
     }
+    .map {
+        iframe {
+            height: 300px;
+        }
+    }
 }
 
 @media (max-width: 650px){ //-------------------------------------------650---------------------------
@@ -214,9 +241,20 @@
             margin-bottom: 20px;
         }
     }
+    .contact {
+        &__form-input{
+            width: 100%;
+        }
+    }
+    .slick-dots li {
+        margin: 0 5px;
+    }
 }
 
 @media (max-width: 540px) { //-------------------------------------------540---------------------------
+    .menu__list-link--active::after {
+        display: none;
+    }
     .logo {
         order: -1;
         position: relative;
@@ -307,7 +345,16 @@
             grid-column: 1;
             grid-row: 1;
         }
+    
+        &.gallery-page {
+        .gallery__item:nth-child(8){
+            grid-column: 1;
+            grid-row: 1;
+            }
+        }        
     }
+
+    
     .inspiration {
         &__item-text,
         &__num {
@@ -337,6 +384,14 @@
             margin-left: 0;
             margin-top: 10px;
         }
+    }
+    .contact-slider {
+        &__img {
+            height: 310px;
+        }
+    }
+    .slick-dots li {
+        margin: 0 1px;
     }
 
 }
